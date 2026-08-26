@@ -1,0 +1,26 @@
+.multiple-background-section {
+    background-image: linear-gradient(to right, rgb(21, 37, 53), transparent),
+    url("beach.png");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.multiple-background-section h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.multiple-background-section h2 {
+    font-size: 48px;
+    margin-top: 200px;
+    color: white;
+}
+
+.multiple-background-section p {
+    font-size: 24px;
+    color: white;
+}
