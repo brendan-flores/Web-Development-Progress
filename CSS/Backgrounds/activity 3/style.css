@@ -1,0 +1,17 @@
+.background-repeat-normal {
+    background-image: url("beach.png");
+    background-repeat: repeat;
+    height: 100px;
+}
+
+.background-no-repeat {
+    background-image: url("beach.png");
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.background-repeat-x {
+    background-image: url("beach.png");
+    background-repeat: repeat-x;
+    height: 100px;
+}
