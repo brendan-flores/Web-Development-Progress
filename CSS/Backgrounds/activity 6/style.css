@@ -1,0 +1,7 @@
+.gradient-section {
+    background-image: linear-gradient(to right, blue, red);
+    color: white;
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+}
