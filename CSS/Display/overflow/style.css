@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.one {
+    overflow: hidden;
+}
+
+.two {
+    overflow: visible;
+}
+
+.three {
+    overflow: scroll;
+}
+
+.four {
+    overflow: auto;
+}
