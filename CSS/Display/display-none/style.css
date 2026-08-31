@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.box-one {
+    background-color: red;
+}
+
+.box-two {
+    background-color: green;
+    display: none;
+}
+
+.box-three {
+    background-color: blue;
+}
