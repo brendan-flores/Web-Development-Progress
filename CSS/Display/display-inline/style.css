@@ -1,0 +1,27 @@
+div {
+    display: inline;
+}
+
+.box-one {
+    background-color: red;
+    padding: 100px;
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.box-two {
+    background-color: green;
+    padding: 100px;
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.box-three {
+    background-color: blue;
+    padding: 100px;
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+}
