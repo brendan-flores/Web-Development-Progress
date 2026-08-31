@@ -27,3 +27,13 @@ div {
 .four {
     overflow: auto;
 }
+
+.five {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.six {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
