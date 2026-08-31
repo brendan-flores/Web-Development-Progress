@@ -1,0 +1,30 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.one {
+    opacity: 1;
+}
+
+.two {
+    opacity: .8;
+}
+
+.three {
+    opacity: .6;
+}
+
+.four {
+    opacity: .4;
+}
+
+.five {
+    opacity: .2;
+}
+
+.six {
+    opacity: 0;
+}
