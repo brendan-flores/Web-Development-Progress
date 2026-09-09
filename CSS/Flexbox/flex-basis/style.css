@@ -1,0 +1,12 @@
+.container {
+    border: 1px solid black;
+    display: flex;
+    height: 250px;
+}
+
+.box {
+    border: 1px solid black;
+    height: 250px;
+    text-align: center;
+    flex: 1 1 0;
+}
