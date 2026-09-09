@@ -1,0 +1,29 @@
+.container {
+    margin: 50px;
+    display: flex;
+    border: 2px solid black;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.box {
+    border: 1px solid navy;
+    height: 100px;
+    width: 100px;
+}
+
+.box1 {
+    order: 2;
+}
+
+.box2 {
+    order: 3;
+}
+
+.box3 {
+    order: 1;
+}
