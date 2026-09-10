@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 3px solid black;
+    height: 600px;
+    width: 800px;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    border: 1px solid black;
+    width: 100px;
+    align-content: center;
+    text-align: center;
+}
+
+.login {
+    border: 1px solid black;
+    width: 100px;
+    align-content: center;
+    text-align: center;
+}
+
+.content {
+    margin: 30px auto;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    text-align: center;
+}
