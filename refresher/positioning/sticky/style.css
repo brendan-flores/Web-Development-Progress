@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;  
+}
+
+div{
+    border: 1px black solid;
+    height: 600px;
+    margin-bottom: 10px;
+}
+
+.section-two-heading {
+    background-color: blue;
+    color: white;
+    top:0px;
+    height: 45px;
+    position: sticky;
+}
