@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent {
+    border: 2px solid black;
+    width: 350px;
+    height: 220px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.child {
+    background-color: lightblue;
+    position: absolute;
+    inset: 20px;
+}
