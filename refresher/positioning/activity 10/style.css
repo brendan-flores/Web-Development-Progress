@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.main-container {
+    width: 400px;
+    height: 300px;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.parent {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+}
+
+.a {
+    background-color: red;
+    inset: 30px auto auto 30px;
+    z-index: 1;
+}
+
+.b {
+    background-color: lightgreen;
+    inset: 80px auto auto 100px;
+    z-index: 2;
+}
+
+.child {
+    position: absolute;
+    width: 100px;
+    height: 80px;
+}
+
+.child-a {
+    background-color: blue;
+    z-index: 999;
+}
+
+.child-b {
+    background-color: orange;
+    z-index: 1;
+}
