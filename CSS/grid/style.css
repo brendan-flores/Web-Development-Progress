@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    width: 500px;
+    height: 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120px 120px;
+    gap: 10px;
+}
+
+.header {
+    background-color: lightgreen;
+    align-self: end;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: lightblue; 
+}
+
+.main {
+    background-color: peachpuff;
+}
+
+.footer {
+    background-color: rgb(255, 197, 255); 
+}
+
+.grid-container > div {
+    border-radius: 5px;
+    height: 60px;
+    width: 100px;
+}
